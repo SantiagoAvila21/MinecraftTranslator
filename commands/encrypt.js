@@ -13,7 +13,7 @@ const encrypt = async sentence => {
         }
         encodedSentence += " ";
     })
-    console.log(await terminalImage.gifFile('enchantmentTable.gif', {width: '50%', height: '50%'}));
+    console.log(await terminalImage.gifFile('./enchantmentTable.gif', {width: '50%', height: '50%'}));
     console.log("\n" + boxen(chalk.green("\n" + encodedSentence + "\n"), {padding: 1, borderColor: 'green', dimBorder: true}) + "\n");
 }
 
