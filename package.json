@@ -17,6 +17,7 @@
     "boxen": "^7.0.0",
     "chalk": "^4.1.2",
     "commander": "^9.4.1",
-    "conf": "^10.2.0"
+    "conf": "^10.2.0",
+    "terminal-image": "^2.0.0"
   }
 }
