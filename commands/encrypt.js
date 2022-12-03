@@ -16,8 +16,7 @@ const encrypt = async sentence => {
         encodedSentence += " ";
     })
     const installedPath = await getInstalledPath("mctranslate-cli");
-    console.log(installedPath);
-    console.log(await terminalImage.gifFile((installedPath + '/enchantmentTable.gif'), {width: '50%', height: '50%'}));
+    console.log(await terminalImage.gifFile((installedPath + '/enchantmentTable.gif'), {width: '65%', height: '65%'}));
     console.log("\n" + boxen(chalk.green("\n" + encodedSentence + "\n"), {padding: 1, borderColor: 'green', dimBorder: true}) + "\n");
 }
 
