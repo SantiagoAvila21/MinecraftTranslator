@@ -10,7 +10,8 @@ const encrypt = async sentence => {
     words.forEach(word => {
         for(let c of word){
             let index = abc.indexOf(c.toLowerCase());
-            encodedSentence += sga[index];
+            if(index == -1) encodedSentence += c;
+            else encodedSentence += sga[index];
         }
         encodedSentence += " ";
     })
