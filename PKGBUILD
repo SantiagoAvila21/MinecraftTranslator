@@ -1,3 +1,5 @@
+# Maintainer: Santiago Avila Gómez <santiavilag2015@gmail.com>
+
 _npmname=mctranslate-cli
 _npmver=1.0.1
 pkgname=mctranslate-cli # All lowercase
