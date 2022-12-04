@@ -2,8 +2,7 @@ import boxen from 'boxen';
 import chalk from 'chalk'
 import {abc,sga} from './utils.js'
 import terminalImage from 'terminal-image';
-import { getInstalledPath } from "get-installed-path";
-
+//import { getInstalledPath } from "get-installed-path";
 
 const encrypt = async sentence => {
     const words = sentence.split(" ");
@@ -15,8 +14,8 @@ const encrypt = async sentence => {
         }
         encodedSentence += " ";
     })
-    const installedPath = await getInstalledPath("mctranslate-cli");
-    console.log(await terminalImage.gifFile((installedPath + '/enchantmentTable.gif'), {width: '65%', height: '65%'}));
+    //const installedPath = await getInstalledPath("mctranslate-cli");
+    console.log(await terminalImage.gifFile(('/usr/lib/node_modules/mctranslate-cli/enchantmentTable.gif'), {width: '65%', height: '65%'}));
     console.log("\n" + boxen(chalk.green("\n" + encodedSentence + "\n"), {padding: 1, borderColor: 'green', dimBorder: true}) + "\n");
 }
 

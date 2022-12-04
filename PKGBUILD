@@ -1,17 +1,17 @@
-_npmname=mctranslate
-_npmver=1.0.0
-pkgname=mctranslate # All lowercase
-pkgver=1.0.0
+_npmname=mctranslate-cli
+_npmver=1.0.1
+pkgname=mctranslate-cli # All lowercase
+pkgver=1.0.1
 pkgrel=1
-pkgdesc="A CLI Tool for translate a sentence into minecraft enchanting alphabet."
+pkgdesc="A CLI Tool for translate a sentence into minecraft enchanting alphabet"
 arch=(any)
-url="https://github.com/SantiagoAvila21/MinecraftTranslator#readme"
-license=('GNU General Public License v3.0')
+url="undefined"
+license=(GNU General Public License v3.0)
 depends=('nodejs' 'npm')
 optdepends=()
 source=(https://registry.npmjs.org/$_npmname/-/$_npmname-$_npmver.tgz)
 noextract=($_npmname-$_npmver.tgz)
-sha1sums=(4cd6caae1b15a2b169fd10742fcdb7c63c3dbf4a)
+sha1sums=(7ec77f25399e0d9f0d0431ec3df2646a92df1e04)
 
 package() {
   cd $srcdir
