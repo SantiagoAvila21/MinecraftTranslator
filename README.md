@@ -7,7 +7,7 @@ Mctranslate-cli is a Command Line Interface for any terminal emulator, for trans
 # Installation
 ## AUR
 ```sh
-yay -S typioca-git
+yay -S mctranslate-cli
 ```
 ## Building from source
 1. Clone the repository.
